@@ -63,7 +63,7 @@ int main()
     Player player_black(game_board,false); // AI player
     std::shared_ptr<GameTree> root = std::make_shared<GameTree>(game_board);
     std::shared_ptr<GameTree> searched;
-    const unsigned int predicted_moves = 6;
+    const unsigned int predicted_moves = 4;
     unsigned int moves = 0;
     
     // Parameters used for calculating the best move
