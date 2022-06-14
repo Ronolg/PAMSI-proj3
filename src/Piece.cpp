@@ -4,7 +4,7 @@
 
 Piece::Piece()
 {
-    this->_isQueen = true;
+    this->_isQueen = false;
     this->_isAlive = false;
     this->_isWhite = false;
 }

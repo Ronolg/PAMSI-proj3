@@ -7,7 +7,7 @@
 class Piece
 {
     private:
-        bool _isQueen;
+        bool _isQueen; 
         bool _isAlive;
         bool _isWhite;
     

@@ -115,7 +115,6 @@ bool Player::check_selected_piece(Board& board, short int x, short int y, bool c
        
     } 
 
-    //std::cout << "Wrong pick, try again." << std::endl;
     return false;
 }
 
